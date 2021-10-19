@@ -12,7 +12,7 @@ class Game:
         self.font = pygame.font.Font('arial.ttf', 32)
 
 
-        self.character_spritesheet= Spritesheet('img/character.png')
+        self.character_spritesheet= Spritesheet('img/single5.png')
         self.terrain_spritesheet = Spritesheet('img/terrain.png')
         self.enemy_spritesheet = Spritesheet('img/enemy.png')
         self.attack_spritesheet = Spritesheet('img/attack.png')
